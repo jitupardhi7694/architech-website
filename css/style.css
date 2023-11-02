@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Bitter:ital,wght@0,500;1,400&family=Comfortaa&family=Dosis:wght@200&family=Nunito&family=Poppins:wght@200&family=Quicksand:wght@400;600&family=Rubik&family=Signika+Negative&family=Sulphur+Point:wght@700&family=Yeseva+One&display=swap');
+
+.navbar {
+    background-color: white !important;
+}
+
+/* 
+    ================================
+        Best Viewed In Full Page
+https://codepen.io/AbubakerSaeed/full/qBOjZqK
+    ================================
+*/
+
+/* Hover over... */
+
+/* DEFAULTS */
+/* ====================================================== */
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-heading {
+    font-family: auto;
+    font-size: 3rem;
+}
+
+.crd-1 {
+    margin: 1rem;
+    position: relative;
+    width: 28rem;
+    height: 36rem;
+    overflow: hidden;
+}
+.crd-2 {
+    margin: 1rem;
+    position: relative;
+    width: 50rem;
+    height: 30rem;
+    overflow: hidden;
+}
+
+.crd-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* .crd--effect-1 .crd-img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+} */
+
+/* .crd--effect-1:hover .crd-img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+} */
+
+.crd-main-effect .crd--effect-1 .crd-img {
+    transition: 1s ease;
+}
+.crd-main-effect .crd--effect-1:hover .crd-img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+.crd-main-effect .after {
+    display: none;
+    opacity: 0.5;
+}
+.crd-main-effect:hover .before {
+    display: none;
+}
+.crd-main-effect:hover .after {
+    display: inline;
+}
+.text-underline-hover {
+    text-decoration: none;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+}
+
+.margin-i {
+    margin-top: 6.5rem !important;
+}
+.margin-i-nav {
+    margin-top: 9.5rem !important;
+}
+.margin-in {
+    margin-top: 15rem !important;
+}
+.galleria {
+    width: 100%;
+    height: 40rem;
+}
+
+body .galleria-thumbnails .galleria-image {
+    min-width: 45%;
+}
+.project-heading-text {
+    font-family: Poppins;
+    letter-spacing: 0;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.nav-flex {
+    display: flex !important;
+    color: black !important;
+}
+.nav-link {
+    color: black !important;
+}
+@media (max-width: 768px) {
+    .crd-2 {
+        margin: 1rem;
+        position: relative;
+        width: 27rem;
+        height: 20rem;
+        overflow: hidden;
+    }
+
+    .crd-1 {
+        margin: 1rem;
+        position: relative;
+        width: 25rem;
+        height: 34rem;
+        overflow: hidden;
+    }
+}
