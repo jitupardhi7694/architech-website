@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Bitter:ital,wght@0,500;1,400&family=Comfortaa&family=Dosis:wght@200&family=Nunito&family=Poppins:wght@200&family=Quicksand:wght@400;600&family=Rubik&family=Signika+Negative&family=Sulphur+Point:wght@700&family=Yeseva+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 .navbar {
     background-color: white !important;
 }
@@ -51,6 +51,13 @@ https://codepen.io/AbubakerSaeed/full/qBOjZqK
 }
 .about-content {
     margin-top: 100px;
+}
+.about-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+}
+h3{
+    font-family: 'Nunito', sans-serif;
 }
 /* .crd--effect-1 .crd-img {
     display: block;
